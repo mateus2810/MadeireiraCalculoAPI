@@ -25,3 +25,9 @@ C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCal
 C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\obj\Debug\netcoreapp3.1\MadeireiraCalculo.dll
 C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\obj\Debug\netcoreapp3.1\MadeireiraCalculo.pdb
 C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\obj\Debug\netcoreapp3.1\MadeireiraCalculo.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\DELL\Desktop\Mentoria\MadeireiraCalculo\MadeireiraCalculo\MadeireiraCalculo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

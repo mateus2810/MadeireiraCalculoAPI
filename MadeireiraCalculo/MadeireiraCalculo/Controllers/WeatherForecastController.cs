@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -34,6 +38,40 @@ namespace MadeireiraCalculo.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet("teste")]
+        public string GetTeste()
+        {
+            MySqlConnection conexaoSql;
+
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.Development.json")
+                .Build();
+
+            string teste = config.GetConnectionString("conexaoBancoDeDados");
+            
+            conexaoSql = new MySqlConnection("Server = DPCMATEUSALMEID\\SQLEXPRESS; Database = Banco_desenvolvimento; User Id = DPCMATEUSALMEID\\DELL;");
+
+            conexaoSql.Open();
+
+
+            MySqlCommand command = new MySqlCommand("Select * from dbo.Madeira", conexaoSql);
+            var result = command.ExecuteNonQuery();
+            using (MySqlDataReader reader = command.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    Console.WriteLine(String.Format("{0}", reader["id"]));
+                }
+            }
+
+
+            conexaoSql.Close();
+
+
+            return "";
         }
     }
 }
